@@ -5,48 +5,61 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Abraham Santosa Personal Website</title>
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Montserrat&display=swap" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar">
-            <span class="open-slide">
-                <a href="#" onclick="openSlideMenu()">
-                    <svg width="30" height="30">
-                        <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
-                        <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
-                        <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
-                    </svg>
-                </a>
-            </span>
-
-            <ul class="navbar-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-
-        <div id="side-menu" class="side-nav">
-            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
-        </div>
-        <div id="main">
-            <h1>Responsive side menu</h1>
-        </div>
-
-        <script>
-            function openSlideMenu(){
-                document.getElementById('side-menu').style.width = '250px';
-                document.getElementById('main').style.marginLeft = '250px';
-            }
-
-            function closeSlideMenu(){
-                document.getElementById('side-menu').style.width = '0px';
-                document.getElementById('main').style.marginLeft = '0px';
-            }
-        </script>
+        <header role="banner">
+            <nav class="navbar">
+                <ul class="navbar-nav">
+                    <li><a href="index.html" title="Home">HOME</a></li>
+                    <li><a href="about.html" title="About">ABOUT</a></li>
+                    <li><a href="resume.html" title="Resume">RESUME</a></li>
+                    <!--<li><a href="contact.html" title="Contact">CONTACT</a></li>-->
+                </ul>
+            </nav>
+             <!--
+                    <span class="open-slide">
+                    <a href="#" onclick="openSlideMenu()">
+                        <svg width="30" height="30">
+                            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                        </svg>
+                    </a>
+                </span>
+            -->
+            <!--
+            <div id="side-menu" class="side-nav">
+                <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+            </div>
+            -->
+            <h1>Front-End <br>Developer.</h1>
+            <a class="link" id="header-link" href="contact.html">Hire me today</a>
+        </header>
+        <main role="main">
+            <article class="article">
+                <section class="focus">
+                        <h3>My passion and focus is<br>Front-End development</h3>
+                        <p>
+                            Let's get through the point. You need a website that looks appealing and Responsive. And that's what I do.
+                        </p>
+                        <p> If you
+                            want to learn more about me, get your phone and give me a call (or shoot me an email!).
+                        </p>
+                    </div>
+                </section>
+                <section class="project">
+                    <h3>My project</h3>
+                    <p>Take a look at my previous projects that I have worked on</p>
+                    <br>
+                    <a href="resume.html" class="link" title="My Project">My Project</a>
+                </section>
+            </article>
+        </main>
     </body>
 </html>

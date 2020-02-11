@@ -8,6 +8,7 @@ article{
     display:flex;
     flex-direction: column;
 }
+
 .navbar-nav{
     overflow:hidden;
     justify-content: center;
@@ -41,13 +42,14 @@ header{
 .link{
     padding: 20px 40px 20px 40px;
     color: #fff;
-    border: rgba(255, 212, 119, 0.849) 1px solid;
+    border: rgba(196, 162, 52, 0.747) 1px solid;
     text-decoration: none;
 }
 
 .link:hover{
-    background-color: rgba(255, 212, 119, 0.849);
-    color: #000;
+    background-color: #000;
+    border: #000 1px solid;
+    color: rgb(225, 168, 122);
     transition: 0.5s;
 }
 
@@ -71,103 +73,91 @@ header{
     transition: 0.5s;
 }
 
-.side-nav{
-    height:100%;
-    width:0;
-    position:fixed;
-    z-index:1;
-    top:0;
-    left:0;
-    background-color:#111;
-    opacity:0.9;
-    overflow-x:hidden;
-    padding-top:60px;
-    transition:0.5s;
-}
-
-.side-nav a{
-    padding:10px 10px 10px 30px;
-    text-decoration:none;
-    font-size:22px;
-    color:#ccc;
-    display:block;
-    transition:.3s;
-}
-
-.side-nav a:hover{
-    color:#fff;
-}
-
-.side-nav .btn-close{
-    position:absolute;
-    top:0;
-    right:22px;
-    font-size:36px;
-    margin-left:50px;
-}
-
 #main{
     transition:margin-left .5s;
     padding:20px;
     overflow:hidden;
     width:100%;
 }
-
-.focus{
-    height: 50vh;
-    background-color: rgb(243, 243, 243);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 50px;
-    padding-left: 2em;
-    padding-right: 2em;
-}
-
-
 main h3{
     font-family: 'Lora', serif;
-    font-weight: lighter;
-    font-size: 50px;
 }
 
 main p{
     font-family: 'Montserrat', sans-serif;
 }
 
-.project{
-    height: 50vh;
-    background-color: rgba(5, 5, 5, 0.863);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 0px;
-    color: #fff;
-    padding-left: 2em;
-    padding-right: 2em;
-}
+/* ------------------ article ---------------------*/
 
 .text{
     line-height: 2.5em;
     padding: 5em;
     margin: 5em;
 }
+.text h3{
+    font-weight: lighter;
+    font-size: 50px;
+}
 
 .text p{
     font-weight: 400;
 }
 
-
-/* About.html */
-
-
-@media(max-width:568px){
-    .navbar-nav{display:none}
+.facts-section{
+    padding-top: 100px;
+    padding-bottom: 50px;   
+    background-color: rgb(230, 230, 230);
+}
+.facts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
+.facts img{
+    padding-left: 80px;
+    padding-right: 50px;
+}
 
-@media(min-width:568px){
-    /*.open-slide{display:none}*/
+/* second section */
+
+.skill-section{
+    padding-top: 2em;
+    padding-bottom:2em;
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+.skills{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+}
+
+.skills p{
+    width: 50vm;
+    font-weight: 100;
+    line-height: 2em;
+}
+
+.skills h3{
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.skills a{
+    color: #000;
+    margin-top:3em;
+    margin-bottom:3em;
+    font-weight: 100;
+}
+.skill-container{
+
 }
