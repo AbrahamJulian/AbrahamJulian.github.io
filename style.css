@@ -20,22 +20,48 @@ header h1{
     font-family: 'Cormorant Garamond', serif;
     font-weight: lighter;
     color: #fff;
-    font-size: 8vw;
+    font-size: 7vw;
     margin-left: 100px;
-    margin-top: 180px;
-    line-height: 110px;
+    line-height: 10vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+header h4{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 3vw;
+    margin-bottom: 0;
+    margin-left: 100px;
+    padding-top: 140px;
+    line-height: 20px;
+}
+
+header h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 3vw;
+    margin-top: 0;
+    margin-left: 100px;
+    line-height: 20px;
+    padding-bottom: 40px;
 }
 
 header{
     height: 100vh;
-    background-image:url(header1.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    -o-background-size: cover;
+    background-color: #000;
+}
+
+header h1,h2,h3{
+    vertical-align: center;
 }
 
 #header-link{
-    margin-left: 110px;
+    margin-left: 100px;
 }
 
 .link{
@@ -67,7 +93,7 @@ header{
 }
 
 .navbar a:hover{
-    color:#000;
+    color: rgba(255, 212, 119, 0.849);
     transition: 0.5s;
 }
 
@@ -106,6 +132,7 @@ header{
     margin-left:50px;
 }
 
+/* --------- article ------------- */ 
 #main{
     transition:margin-left .5s;
     padding:20px;
@@ -120,9 +147,12 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 2em;
     padding-right: 2em;
+    text-align: center;
+    line-height: 2em;
 }
 
 
@@ -164,7 +194,7 @@ main p{
 
 
 @media(max-width:568px){
-    .navbar-nav{display:none}
+    
 }
 
 

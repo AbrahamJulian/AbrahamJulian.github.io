@@ -29,10 +29,7 @@ header h1{
 
 header{
     height: 100vh;
-    background-image:url(header1.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    -o-background-size: cover;
+    background-color: #000;
 }
 
 #header-link{
@@ -68,7 +65,7 @@ header{
 }
 
 .navbar a:hover{
-    color:#000;
+    color: rgba(255, 212, 119, 0.849);
     transition: 0.5s;
 }
 
@@ -129,12 +126,12 @@ main p{
     
     justify-content: center;
     padding-left: 17px;
-    padding-right: 100px;
+    margin-right: 100px;
 }
 .column-2{
     justify-content: center;
-    padding-left: 80px;
-    padding-right: 17px;
+    margin-left: 80px;
+    padding-right: 10px;
 }
 
 .project{
@@ -171,6 +168,10 @@ main p{
     padding: 50px;
 }
 
+#address{
+    color: #8f8f8f;
+    font-weight: lighter;
+}
 .edu{
     display: flex;
     flex-direction: column;
