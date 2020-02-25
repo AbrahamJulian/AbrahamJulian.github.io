@@ -1,7 +1,7 @@
 body{
     font-family:"Arial", Serif;
     background-color:#f4f4f4;
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 article{
@@ -38,7 +38,7 @@ header{
 }
 
 .link{
-    padding: 20px 40px 20px 40px;
+    padding: 20px 40px;
     color: #fff;
     border: rgba(196, 162, 52, 0.747) 1px solid;
     text-decoration: none;
@@ -62,7 +62,7 @@ header{
 }
 
 .navbar ul{
-    margin:0 0 0 0;
+    margin:0;
     list-style:none;
 }
 
