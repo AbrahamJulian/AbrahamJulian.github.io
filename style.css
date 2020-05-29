@@ -93,8 +93,11 @@ main{
 }
 
 section{
+    padding: 10px 0;
     height:100vh;
-    margin: 0 50px;
+    min-height: fit-content;
+    width: auto;
+    margin: 10px 50px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -191,6 +194,7 @@ h5{
         padding: 0 40px;
     }
     
+    
     .go-to ul{
         text-align: center;
     }
@@ -213,18 +217,21 @@ h5{
 
 }
 
-@media screen and (min-width: 820px) and (max-width: 1079px){
+@media screen and (min-width: 820px) and (max-width: 1212px){
     header{
         background-color: black;
         flex-direction: column;
     }
     .greetings{
-        padding: auto 0;
+        padding-left: 0;
         text-align: center;
         line-height: 40px;
         font-size: 1.25em;
     }
-    
+    .go-to{
+        right: 0;
+        padding-right: 0;
+    }
     .go-to ul{
         text-align: center;
     }
