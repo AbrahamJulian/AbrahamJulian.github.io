@@ -166,14 +166,13 @@ section {
   }
 
   header {
+    position: relative;
     font-size: 18px;
-    position: sticky;
-    height: 40vh;
+    height: 100vh;
     width: 100vw;
     flex-direction: column;
     line-height: 1px;
     text-align: center;
-    z-index: 1;
   }
 
   .greetings {
