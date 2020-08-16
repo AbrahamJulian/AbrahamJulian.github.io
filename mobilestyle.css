@@ -14,9 +14,10 @@ body p {
   font-size: 14px;
 }
 
-body h3 {
+h3 {
   font-family: "Rubik", sans-serif;
   font-weight: lighter;
+  margin-bottom: 0;
 }
 
 ul {
@@ -126,7 +127,7 @@ section {
   margin: 30px auto;
 }
 
-.job-info {
+h5 {
   margin-top: 0;
   margin-bottom: 10px;
   padding-top: 0;
@@ -135,18 +136,8 @@ section {
   color: grey;
 }
 
-.job-duration {
-  margin-left: 10px;
-  padding-left: 10px;
-  border-left: 1px solid black;
-  color: black;
-}
 .title {
   line-height: 25px;
-}
-
-.title h3 {
-  margin-bottom: 0;
 }
 
 .card {
@@ -158,26 +149,22 @@ section {
     display: flex;
     flex-direction: column;
   }
-
-  header h1,
-  h4 {
-    font-size: 1em;
-    margin: 0;
-  }
-
   header {
     font-size: 18px;
     position: sticky;
-    height: 40vh;
+    height: auto;
     width: 100vw;
     flex-direction: column;
     line-height: 1px;
     text-align: center;
     z-index: 1;
   }
-
   .greetings {
-    padding: 30px 10px 0px;
+    padding: 0 10px;
+  }
+  header h1,
+  h4 {
+    font-size: 1em;
   }
 
   .go-to {
@@ -189,7 +176,7 @@ section {
     text-align: center;
   }
 
-  .go-to ul li {
+  .go-to li {
     padding: 10px;
   }
   .go-to ul li a {
@@ -208,76 +195,5 @@ section {
     margin-left: auto;
     align-items: flex-start;
     justify-content: center;
-  }
-}
-@media screen and (min-width: 480px) and (max-width: 819px) {
-  header {
-    background-color: black;
-    flex-direction: column;
-    text-align: center;
-  }
-  .greetings {
-    width: 150px;
-    line-height: 35px;
-    padding: 0 40px;
-  }
-
-  .go-to {
-    padding-right: 0;
-  }
-  .go-to ul {
-    text-align: center;
-  }
-
-  .go-to li {
-    padding: 10px 0;
-  }
-
-  .go-to ul li a {
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 5px;
-  }
-
-  .go-to ul li a:hover {
-    color: rgba(255, 212, 119, 0.849);
-    border: 1px solid rgba(255, 212, 119, 0.849);
-    transition: 0.5s;
-  }
-}
-
-@media screen and (min-width: 820px) and (max-width: 1212px) {
-  header {
-    background-color: black;
-    flex-direction: column;
-  }
-  .greetings {
-    padding-left: 0;
-    text-align: center;
-    line-height: 40px;
-    font-size: 1.25em;
-  }
-  .go-to {
-    right: 0;
-    padding-right: 0;
-  }
-  .go-to ul {
-    text-align: center;
-  }
-
-  .go-to li {
-    padding: 10px;
-  }
-
-  .go-to ul li a {
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 5px;
-  }
-
-  .go-to ul li a:hover {
-    color: rgba(255, 212, 119, 0.849);
-    border: 1px solid rgba(255, 212, 119, 0.849);
-    transition: 0.5s;
   }
 }
