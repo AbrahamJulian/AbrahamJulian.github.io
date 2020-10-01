@@ -135,6 +135,11 @@ section {
   margin-right: 10px;
 }
 
+.flex-card h3,
+p {
+  margin: 7px auto;
+}
+
 .project-link:hover {
   color: rgba(255, 212, 119, 0.849);
   background-color: black;
