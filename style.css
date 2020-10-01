@@ -132,6 +132,13 @@ section {
   color: black;
   border: 1px solid black;
   border-radius: 10px;
+  margin-right: 10px;
+}
+
+.project-link:hover {
+  color: rgba(255, 212, 119, 0.849);
+  background-color: black;
+  transition: 0.5s;
 }
 
 .flex-card {
