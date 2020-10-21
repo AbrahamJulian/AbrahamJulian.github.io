@@ -108,6 +108,10 @@ main {
   margin-left: 39vw;
 }
 
+section:first-of-type {
+  margin: 0 50px;
+}
+
 section {
   padding: 10px 0;
   height: 100vh;
