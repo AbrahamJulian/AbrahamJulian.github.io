@@ -108,6 +108,10 @@ main {
   margin-left: 39vw;
 }
 
+section:first-of-type {
+  margin: 0 50px;
+}
+
 section {
   padding: 10px 0;
   height: 100vh;
@@ -163,9 +167,6 @@ p {
 }
 
 .job-duration {
-  margin-left: 10px;
-  padding-left: 10px;
-  border-left: 1px solid black;
   color: black;
 }
 .title {
